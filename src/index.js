@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// where to create front end react app
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,6 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  // loading app into element root
   document.getElementById('root')
 );
 
